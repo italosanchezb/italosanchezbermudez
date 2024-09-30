@@ -1,0 +1,23 @@
+project:
+  type: book
+
+book:
+  title: "Portafolio"
+  author: "Ítalo"
+  date: today
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - summary.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: lux
+  pdf:
+    documentclass: scrreprt
+
+
+
